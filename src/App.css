@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: #F8F9FD;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.login-form {
+  box-shadow: 3px 3px 4px rgba(0,0,0, 0.2);
+}
+.link {
+  text-decoration: underline;
+  color: black;
+}
+/* The snackbar - position it at the bottom and in the middle of the screen */
+.snackbar {
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    bottom: 70px; /* 30px from the bottom */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 15px;
+}
